@@ -25,8 +25,9 @@ The subsequent phases will run automatically.
 
 Random Forest Classifier Runtime: The Random Forest classifier may take around 30 minutes to run. If you prefer to skip the Random Forest model and directly run the Bagging model, replace the code in ClassificationAnalysis.py between lines 351 and 429 with the Bagging Classifier code provided in this README.md.
 
-Bagging Classifier Code Snippet:
+### Bagging Classifier Code Snippet:
 
+```python
 # Bagging Classifier
 bagging = BaggingClassifier(base_estimator=DecisionTreeClassifier(), random_state=random_state)
 
@@ -54,9 +55,10 @@ accuracy_bagging = accuracy_score(y_test, y_pred_bagging)
 print("\nBagging - Best Params:", best_params_bagging)
 print("Bagging - Best Score:", best_score_bagging)
 print("Bagging - Test Accuracy:", accuracy_bagging)
+```
 
 
-Project Highlights
+## Project Highlights
 
 1. Feature Engineering & EDA
 Missing Data Handling: Verified no missing data in the dataset.
@@ -75,7 +77,7 @@ Model Tuning: Hyperparameter tuning via GridSearchCV and model evaluation using 
 K-means Clustering: Identified patterns within the dataset using the K-means++ algorithm.
 Association Rule Mining: Applied the Apriori algorithm to uncover associations between features.
 
-Recommendations & Future Work
+## Recommendations & Future Work
 Feature Selection: From regression analysis, several features (e.g., orbiting_body, sentry_object, est_diameter_min) were deemed unnecessary and can be excluded for better model performance.
 Best Classification Model: The Neural Network model emerged as the most effective for classifying hazardous objects.
 Clustering: The K-means analysis suggests six distinct clusters in the feature space.
