@@ -79,9 +79,12 @@ Association Rule Mining: Applied the Apriori algorithm to uncover associations b
 
 ## Recommendations & Future Work
 Feature Selection: From regression analysis, several features (e.g., orbiting_body, sentry_object, est_diameter_min) were deemed unnecessary and can be excluded for better model performance.
+
 Best Classification Model: The Neural Network model emerged as the most effective for classifying hazardous objects.
+
 Clustering: The K-means analysis suggests six distinct clusters in the feature space.
+
 Future Enhancements: Expanding the hyperparameter search space during grid search could potentially improve the model's performance.
 
-Data used -
+## Data used -
 https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects/data
