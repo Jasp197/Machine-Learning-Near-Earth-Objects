@@ -16,9 +16,9 @@ The project is organized into several Python scripts, each handling a specific p
 ### Running the Project
 
 To execute the entire project pipeline, please run the feature engineering file:
-
+```
 python FeatureEngineering.py
-
+```
 The subsequent phases will run automatically.
 
 ### Note:
