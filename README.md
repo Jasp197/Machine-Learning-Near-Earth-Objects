@@ -77,6 +77,10 @@ Model Tuning: Hyperparameter tuning via GridSearchCV and model evaluation using 
 K-means Clustering: Identified patterns within the dataset using the K-means++ algorithm.
 Association Rule Mining: Applied the Apriori algorithm to uncover associations between features.
 
+## Results
+
+<img src="assets/classification-comparison.png" width="800">
+
 ## Recommendations & Future Work
 Feature Selection: From regression analysis, several features (e.g., orbiting_body, sentry_object, est_diameter_min) were deemed unnecessary and can be excluded for better model performance.
 
